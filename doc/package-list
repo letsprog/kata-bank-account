@@ -1,0 +1,10 @@
+com.socgen.excercise.kata.bank.commons
+com.socgen.excercise.kata.bank.helpers
+com.socgen.excercise.kata.bank.launch
+com.socgen.excercise.kata.bank.model
+com.socgen.excercise.kata.bank.model.enums
+com.socgen.excercise.kata.bank.model.wrapper
+com.socgen.excercise.kata.bank.process
+com.socgen.excercise.kata.bank.process.api
+com.socgen.excercise.kata.bank.process.api.dto
+com.socgen.exercise.kata.bank.process
