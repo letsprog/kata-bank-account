@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 /**
  * @author Farah
  *
- *	This POJO purpose is to generate a statement from a transaction by calculating the balance.
+ *	<p>This POJO purpose is to generate a statement from a transaction by calculating the balance.</p>
  */
 public class Statement implements Serializable {
 	

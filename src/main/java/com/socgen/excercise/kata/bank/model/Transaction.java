@@ -9,7 +9,7 @@ import com.socgen.excercise.kata.bank.model.enums.TransactionType;
 /**
  * @author Farah
  *
- *	A Transaction represents a deposit or a withdrawal operation.
+ *	<p>A Transaction represents a deposit or a withdrawal operation.</p>
  *
  */
 public class Transaction implements Serializable {

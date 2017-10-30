@@ -21,7 +21,7 @@ import com.socgen.excercise.kata.bank.process.api.dto.BankAccountOperationsDTO;
 /**
  * @author Farah
  *
- * This class is the implementation of IBankAccountOperations interface.
+ * <p>This class is the implementation of IBankAccountOperations interface.</p>
  * 
  */
 public class BankAccountOperations implements IBankAccountOperations {

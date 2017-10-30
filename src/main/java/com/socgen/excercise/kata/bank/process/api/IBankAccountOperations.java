@@ -5,7 +5,7 @@ import com.socgen.excercise.kata.bank.process.api.dto.BankAccountOperationsDTO;
 /**
  * @author Farah
  *
- * This is the API which declare the operations which can be done by an account
+ * <p>This is the API which declare the operations which can be done by an account.</p>
  */
 public interface IBankAccountOperations {
 	
@@ -14,7 +14,11 @@ public interface IBankAccountOperations {
 	 * 
 	 * This method is used to make a deposit in the given account.
 	 * 
-	 * @param bankAccountOperationsDTO This DTO must have these data set : the account with its RIB and an unsigned amount.
+	 * @param bankAccountOperationsDTO This DTO must have these data set : 
+	 * <ul>
+	 *  <li> The account with its RIB 
+	 *	<li> An unsigned amount.
+	 * </ul>
 	 * 
 	 */
 	void deposit(BankAccountOperationsDTO bankAccountOperationsDTO);
@@ -25,7 +29,11 @@ public interface IBankAccountOperations {
 	 * 
 	 * This method is used to make a withdrawal from the given account.
 	 * 
-	 * @param bankAccountOperationsDTO  This DTO must have these data set : the account with its RIB and an unsigned amount.
+	 * @param bankAccountOperationsDTO This DTO must have these data set : 
+	 * <ul>
+	 *  <li> The account with its RIB 
+	 *	<li> An unsigned amount.
+	 * </ul>
 	 * 
 	 */
 	void withdraw(BankAccountOperationsDTO bankAccountOperationsDTO);
@@ -36,7 +44,11 @@ public interface IBankAccountOperations {
 	 * 
 	 * This method is used to generate the statements history. As a result the statements collection will be generated.
 	 * 
-	 * @param bankAccountOperationsDTO This DTO must have these data set : the account with its RIB and its transactions.
+	 * @param bankAccountOperationsDTO This DTO must have these data set : 
+	 * <ul>
+	 *  <li> The account with its RIB 
+	 *	<li> The related transactions.
+	 * </ul>
 	 */
 	void generateHistory(BankAccountOperationsDTO bankAccountOperationsDTO);
 	

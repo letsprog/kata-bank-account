@@ -3,7 +3,7 @@ package com.socgen.excercise.kata.bank.model.enums;
 /**
  * @author Farah
  *
- *	The are 2 possible Transaction types : Deposit and Withdrawal operations
+ *	<p>The are 2 possible Transaction types : Deposit and Withdrawal operations.</p>
  */
 public enum TransactionType {
 	

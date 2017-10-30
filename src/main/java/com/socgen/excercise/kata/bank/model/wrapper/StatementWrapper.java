@@ -7,7 +7,7 @@ import com.socgen.excercise.kata.bank.model.Transaction;
 /**
  * @author Farah
  *
- *	This is a simple wrapper to a Statement to generate a formated line that will be displayed on the Console.
+ *	<p>This is a simple wrapper to a Statement to generate a formated line that will be displayed on the Console.</p>
  *
  */
 public class StatementWrapper extends Wrapper {

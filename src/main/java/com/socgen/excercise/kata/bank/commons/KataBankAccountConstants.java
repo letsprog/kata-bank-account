@@ -3,7 +3,7 @@ package com.socgen.excercise.kata.bank.commons;
 /**
  * @author Farah
  *
- *	The application constants must be centralized in this class.
+ *	<p>The application constants must be centralized in this class.</p>
  *
  */
 public class KataBankAccountConstants {

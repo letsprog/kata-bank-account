@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author Farah
  *
- * The account which aggregates the deposit and withdrawal transactions
+ * <p>The account which aggregates the deposit and withdrawal transactions.</p>
  *
  */
 public class Account implements Serializable {

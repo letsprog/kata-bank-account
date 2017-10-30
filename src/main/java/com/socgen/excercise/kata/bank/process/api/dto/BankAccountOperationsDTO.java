@@ -11,7 +11,7 @@ import com.socgen.excercise.kata.bank.model.Statement;
 /**
  * @author Farah
  *
- *	The Data Transfer Object that works as a data cluster of IBankAccountOperations API.
+ *	<p>The Data Transfer Object that works as a data cluster of IBankAccountOperations API.</p>
  *
  */
 public class BankAccountOperationsDTO implements Serializable {
